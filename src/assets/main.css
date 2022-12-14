@@ -1,0 +1,78 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    color: var(--color-text-dark);
+    /* background-color: rgb(236, 225, 225); */
+    background-image: url(../assets/fondo.jpg);
+    background-size: 4rem;
+    line-height: 1.6;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    
+  }
+  main{
+    padding: .5rem;
+    text-align: center;
+    
+  }
+  button, a{
+    touch-action: auto;
+  }
+
+  
+  h1{
+    font-size: clamp(1.5rem, 1.8, 2rem);
+    font-family: 'Kenia', cursive;
+  }
+  h2{
+    font-size: clamp(1.4rem, 2vw, 2rem);
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 600;
+    font-size: 2rem;
+    
+  }
+  h3{
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  h5{
+    font-size: clamp(1rem, 1.4vw, 1.5rem);
+    
+  }
+
+  .btn-more{
+    font-weight: 600;
+    padding: 10px 20px;
+    color: var(--color-text-dark);
+    background-color: var(--color-btn);
+    transition: .3s;
+    border-radius: 7rem;
+    /* font-family: 'La Belle Aurore', cursive; */
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2rem;
+  }
+  .btn-more:hover{
+    transform: scale(1.03);
+    background-color: var(--color-btn-hover);
+    color: var(--color-text-ligth);
+  }
+
+  p{
+    font-size: clamp(1rem, 1.2vw, 1.3rem);
+    font-weight: normal;
+    margin: 0rem !important;
+  }
+
+  label{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  
